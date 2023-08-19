@@ -1,4 +1,4 @@
-function Produto (nome,descricao,preco,codigoDeBarras) {
+ function Produto (nome,descricao,preco,codigoDeBarras) {
     this.nome;
     this.descricao;
     this.codigoDeBarras;
@@ -53,3 +53,4 @@ const pao = new Produto("Pão", "Francês", 2, "789");
 console.log(cereal.calculaDesconto(10));
 console.log(cereal.aumentaPreco(5));
 
+// resultado teste dNan
